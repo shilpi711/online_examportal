@@ -116,7 +116,7 @@ Route::get("deletequestion/{id}","AdminController@deletequestion");
 //student login
 Route::get("/","StudentController@login");
 //student signup
-Route::get("student/studentsignup","StudentController@studentsignup");
+Route::get("studentsignup","StudentController@studentsignup");
 //insert
 Route::post('studentsavesignup',"StudentController@studentsavesignup");
 //match login
