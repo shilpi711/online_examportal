@@ -107,7 +107,7 @@ padding : 50px 0;
     <br>
 
     <button type="submit"  onclick="reg()" class="btn btn-login float-right">
-      <a href="login">
+      <a href="/">
    Login</a></button>
    <br>
    <br>
