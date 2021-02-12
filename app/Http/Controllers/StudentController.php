@@ -35,7 +35,7 @@ class StudentController extends Controller
          //dd($data);
 
          if($data){
-            return redirect('student/studentsignup')->with('message','data successfully Added');  //flash message session
+            return redirect('studentsignup')->with('message','data successfully Added');  //flash message session
          }
      }
 
